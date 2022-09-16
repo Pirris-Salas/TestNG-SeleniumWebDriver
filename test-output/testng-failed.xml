@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Final Project Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Users Tests(failed)">
+    <classes>
+      <class name="UsersLengthTest">
+        <methods>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="emptyUserName"/>
+          <include name="largestUserTest"/>
+        </methods>
+      </class> <!-- UsersLengthTest -->
+    </classes>
+  </test> <!-- Users Tests(failed) -->
+  <test thread-count="5" name="Passwords Test(failed)">
+    <classes>
+      <class name="PasswordTests">
+        <methods>
+          <include name="start"/>
+          <include name="passwordInvalidLength"/>
+          <include name="numbersOnlyPassword"/>
+          <include name="lowerCaseNumbersPassword"/>
+          <include name="fin"/>
+          <include name="lettersOnlyPassword"/>
+          <include name="upperCaseNumbersPassword"/>
+        </methods>
+      </class> <!-- PasswordTests -->
+    </classes>
+  </test> <!-- Passwords Test(failed) -->
+  <test thread-count="5" name="Products Tests(failed)">
+    <classes>
+      <class name="ProductTests">
+        <methods>
+          <include name="emptyProductDecription"/>
+          <include name="start"/>
+          <include name="emptyProductName"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- ProductTests -->
+    </classes>
+  </test> <!-- Products Tests(failed) -->
+</suite> <!-- Failed suite [Final Project Suite] -->

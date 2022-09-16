@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Final Project Suite">
+    <test name="Login Tests" >
+        <classes>
+            <class name="LoginTests" />
+        </classes>
+    </test>
+    <test name="Users Tests">
+    <classes>
+        <class name="UsersLengthTest"/>
+    </classes>
+    </test>
+    <test name="Passwords Test">
+        <classes>
+            <class name="PasswordTests" />
+        </classes>
+    </test>
+    <test name="Products Tests">
+        <classes>
+            <class name="ProductTests" />
+        </classes>
+    </test>
+</suite>

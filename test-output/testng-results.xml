@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="7" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-04T08:35:04 CST" name="Final Project Suite" finished-at="2022-05-04T08:36:01 CST" duration-ms="57436">
+    <groups>
+    </groups>
+    <test started-at="2022-05-04T08:35:04 CST" name="Login Tests" finished-at="2022-05-04T08:35:15 CST" duration-ms="10880">
+      <class name="LoginTests">
+        <test-method is-config="true" signature="start()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:04 CST" name="start" finished-at="2022-05-04T08:35:07 CST" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validLogin()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:07 CST" name="validLogin" finished-at="2022-05-04T08:35:08 CST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:08 CST" name="fin" finished-at="2022-05-04T08:35:08 CST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:08 CST" name="start" finished-at="2022-05-04T08:35:10 CST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="wrongPassword()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:10 CST" name="wrongPassword" finished-at="2022-05-04T08:35:11 CST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:11 CST" name="fin" finished-at="2022-05-04T08:35:11 CST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:11 CST" name="start" finished-at="2022-05-04T08:35:14 CST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="wrongUser()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:14 CST" name="wrongUser" finished-at="2022-05-04T08:35:15 CST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongUser -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:LoginTests@11c20519]" started-at="2022-05-04T08:35:15 CST" name="fin" finished-at="2022-05-04T08:35:15 CST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+      </class> <!-- LoginTests -->
+    </test> <!-- Login Tests -->
+    <test started-at="2022-05-04T08:35:15 CST" name="Users Tests" finished-at="2022-05-04T08:35:29 CST" duration-ms="14496">
+      <class name="UsersLengthTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:15 CST" name="start" finished-at="2022-05-04T08:35:17 CST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="emptyUserName()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:17 CST" name="emptyUserName" finished-at="2022-05-04T08:35:18 CST" duration-ms="945" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at UsersLengthTest.emptyUserName(UsersLengthTest.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserName -->
+        <test-method is-config="true" signature="end()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:18 CST" name="end" finished-at="2022-05-04T08:35:18 CST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:18 CST" name="start" finished-at="2022-05-04T08:35:21 CST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="largestUserTest()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:21 CST" name="largestUserTest" finished-at="2022-05-04T08:35:22 CST" duration-ms="939" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at UsersLengthTest.largestUserTest(UsersLengthTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- largestUserTest -->
+        <test-method is-config="true" signature="end()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:22 CST" name="end" finished-at="2022-05-04T08:35:22 CST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:22 CST" name="start" finished-at="2022-05-04T08:35:25 CST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="valid29LengthUserName()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:25 CST" name="valid29LengthUserName" finished-at="2022-05-04T08:35:26 CST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid29LengthUserName -->
+        <test-method is-config="true" signature="end()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:26 CST" name="end" finished-at="2022-05-04T08:35:26 CST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:26 CST" name="start" finished-at="2022-05-04T08:35:28 CST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="valid30LengthUserName()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:28 CST" name="valid30LengthUserName" finished-at="2022-05-04T08:35:29 CST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid30LengthUserName -->
+        <test-method is-config="true" signature="end()[pri:0, instance:UsersLengthTest@564718df]" started-at="2022-05-04T08:35:29 CST" name="end" finished-at="2022-05-04T08:35:29 CST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- UsersLengthTest -->
+    </test> <!-- Users Tests -->
+    <test started-at="2022-05-04T08:35:29 CST" name="Passwords Test" finished-at="2022-05-04T08:35:49 CST" duration-ms="20091">
+      <class name="PasswordTests">
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:29 CST" name="start" finished-at="2022-05-04T08:35:32 CST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="lettersOnlyPassword()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:32 CST" name="lettersOnlyPassword" finished-at="2022-05-04T08:35:32 CST" duration-ms="906" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at PasswordTests.lettersOnlyPassword(PasswordTests.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lettersOnlyPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:32 CST" name="fin" finished-at="2022-05-04T08:35:33 CST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:33 CST" name="start" finished-at="2022-05-04T08:35:35 CST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="lowerCaseNumbersPassword()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:35 CST" name="lowerCaseNumbersPassword" finished-at="2022-05-04T08:35:36 CST" duration-ms="956" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at PasswordTests.lowerCaseNumbersPassword(PasswordTests.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowerCaseNumbersPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:36 CST" name="fin" finished-at="2022-05-04T08:35:36 CST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:36 CST" name="start" finished-at="2022-05-04T08:35:38 CST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="numbersOnlyPassword()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:38 CST" name="numbersOnlyPassword" finished-at="2022-05-04T08:35:39 CST" duration-ms="943" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at PasswordTests.numbersOnlyPassword(PasswordTests.java:139)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numbersOnlyPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:39 CST" name="fin" finished-at="2022-05-04T08:35:39 CST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:39 CST" name="start" finished-at="2022-05-04T08:35:41 CST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="passwordInvalidLength()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:41 CST" name="passwordInvalidLength" finished-at="2022-05-04T08:35:42 CST" duration-ms="899" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at PasswordTests.passwordInvalidLength(PasswordTests.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordInvalidLength -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:42 CST" name="fin" finished-at="2022-05-04T08:35:42 CST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:42 CST" name="start" finished-at="2022-05-04T08:35:44 CST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="upperCaseNumbersPassword()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:44 CST" name="upperCaseNumbersPassword" finished-at="2022-05-04T08:35:46 CST" duration-ms="1597" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Usuario registrado] but found [Usuario registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Usuario registrado] but found [Usuario registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at PasswordTests.upperCaseNumbersPassword(PasswordTests.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upperCaseNumbersPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:46 CST" name="fin" finished-at="2022-05-04T08:35:46 CST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method is-config="true" signature="start()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:46 CST" name="start" finished-at="2022-05-04T08:35:48 CST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validPassword()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:48 CST" name="validPassword" finished-at="2022-05-04T08:35:49 CST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method is-config="true" signature="fin()[pri:0, instance:PasswordTests@2ea6137]" started-at="2022-05-04T08:35:49 CST" name="fin" finished-at="2022-05-04T08:35:49 CST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+      </class> <!-- PasswordTests -->
+    </test> <!-- Passwords Test -->
+    <test started-at="2022-05-04T08:35:49 CST" name="Products Tests" finished-at="2022-05-04T08:36:01 CST" duration-ms="11806">
+      <class name="ProductTests">
+        <test-method is-config="true" signature="start()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:49 CST" name="start" finished-at="2022-05-04T08:35:52 CST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="emptyProductDecription()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:52 CST" name="emptyProductDecription" finished-at="2022-05-04T08:35:53 CST" duration-ms="1422" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Producto registrado] but found [Producto registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Producto registrado] but found [Producto registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at ProductTests.emptyProductDecription(ProductTests.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyProductDecription -->
+        <test-method is-config="true" signature="end()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:53 CST" name="end" finished-at="2022-05-04T08:35:53 CST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:53 CST" name="start" finished-at="2022-05-04T08:35:56 CST" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="emptyProductName()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:56 CST" name="emptyProductName" finished-at="2022-05-04T08:35:57 CST" duration-ms="1473" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Producto registrado] but found [Producto registrado]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Producto registrado] but found [Producto registrado]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:1986)
+at org.testng.Assert.assertNotEquals(Assert.java:2008)
+at ProductTests.emptyProductName(ProductTests.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at Start.main(Start.java:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyProductName -->
+        <test-method is-config="true" signature="end()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:57 CST" name="end" finished-at="2022-05-04T08:35:57 CST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="start()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:35:57 CST" name="start" finished-at="2022-05-04T08:36:00 CST" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validNewProduct()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:36:00 CST" name="validNewProduct" finished-at="2022-05-04T08:36:01 CST" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validNewProduct -->
+        <test-method is-config="true" signature="end()[pri:0, instance:ProductTests@55040f2f]" started-at="2022-05-04T08:36:01 CST" name="end" finished-at="2022-05-04T08:36:01 CST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- ProductTests -->
+    </test> <!-- Products Tests -->
+  </suite> <!-- Final Project Suite -->
+</testng-results>
